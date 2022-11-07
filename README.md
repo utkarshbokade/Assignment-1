@@ -8,6 +8,7 @@ if not then proceed to next step
 check if number is divisible by 5
 if yes then print buzz
 if not then proceed to next step
+repeat the steps till the range is reached
 
 
 for fizzbuzz in range(51):
@@ -21,4 +22,3 @@ for fizzbuzz in range(51):
         print("buzz")
         continue
     print(fizzbuzz)
-	
